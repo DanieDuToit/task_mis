@@ -27,7 +27,6 @@ Route::get('users/index', [UserController::class, 'index'])->name('usersIndex');
 Route::get('permissions/index', [PermissionsController::class, 'index'])->name('permissionsIndex');
 
 Route::get('roles/index', [RolesController::class, 'index'])->name('rolesIndex');
-Route::get('roles/index', [RolesController::class, 'index'])->name('rolesIndex');
 
 ////Route::get('/', function () {
 ////    return view('dashboard');
